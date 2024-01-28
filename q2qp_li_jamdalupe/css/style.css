@@ -1,0 +1,384 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/**all css**/
+
+h4{
+    font-size: 4vh;
+    color:black;
+    opacity: 50%;
+}
+
+h3{
+    font-size: 5vh;
+}
+
+p{
+    font-size: 3vh;
+}
+
+h2{
+    color:black;
+    opacity: 50%;
+    font-size: 6vh;
+}
+
+body{
+    background-color: #fefae0;
+}
+
+/**navbar css**/
+
+.pagelogo img{
+    width: 13vw;
+    height: 11vh;
+}
+
+.pagelogo{
+    padding-left: 1vw;
+    margin-right: 55vw;
+}
+
+header{
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #01f400;
+    font-family: ;
+    position: relative;
+    width: 100%;
+    height: 12vh;
+    z-index: 5;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 3vh;
+}
+
+#dropdowntext a{
+    color: black;
+    text-decoration: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #01f400;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navlinks{
+    height: 5vh;
+    width: 8vw;
+}
+
+.navlinks a{
+    font-size: 3vh;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navlinks:hover {
+    background-color: #01f400;
+}
+
+/**footer css**/
+
+footer {
+    background-color: #01f400;
+    font-family: ;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 13vh;
+    z-index: 5;
+}
+
+.copyright{
+    padding-left: 3vh;
+    margin-right: 55vw;
+}
+
+.icon{
+    background: url(/images/sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    justify-content: right;
+}
+
+#twitter{
+    background-position: -66px -72px;
+}
+
+#fb{
+    background-position: -439px -146px;
+}
+
+#instagram{
+    background-position: -439px -221px;
+}
+
+/*banner css*/
+
+#vidbg{ 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1; 
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.bannerhead{
+    font-size: 5em;
+    color: black;
+    font-size: 10vh;
+    text-align: left;
+    padding-top: 30vh;
+    padding-left: 5vh;
+    font-family: ;
+}
+
+article p{
+    font-size: 5em;
+    color: black;
+    font-size: 6vh;
+    text-align: left;
+    padding-bottom: 30vh;
+    padding-left: 5vh;
+    font-family: ;
+}
+
+/**background css**/
+
+.background{
+    padding-left: 3vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+/**activities css**/
+
+.past{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.activity1{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.activity2{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.activity3{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.activity4{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.activity5{
+    padding: 1vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.activitytext{
+    padding-left: 1vw;
+}
+
+.activitytext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vh;
+    background-color: #01f400;
+    margin-top: 1vh;
+    font-family: ;
+    color: white;
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+.images img{
+    width: 30vw;
+    height: 30vh;
+}
+
+/**do css**/
+
+.do{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.actsparts{
+    display: flex;
+    flex-direction: column;
+}
+
+.recentimages img{
+    width: 45vw;
+    height: 50vh;
+}
+
+.recenttext{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.recenttext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vh;
+    background-color: #01f400;
+    margin-top: 1vh;
+    font-family: ;
+    color: white;
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+/**initiatives css**/
+
+.initiatives{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.campaigns{
+    display: flex;
+    flex-direction: column;
+}
+
+.campimages img{
+    width: 45vw;
+    height: 50vh;
+}
+
+.camptext{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.campbanners{
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/**involvements css**/
+
+.involvements{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+}
+
+.eventtext{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.eventlinks a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vh;
+    background-color: #01f400;
+    margin-top: 1vh;
+    font-family: ;
+    color: white;
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+}
+
+.partnertext{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.partnertext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1vh;
+    background-color: #01f400;
+    margin-top: 1vh;
+    font-family: ;
+    color: white;
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+/**about css**/
+
+.about{
+    padding-left: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.aboutbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/**v&m css**/
+
+/**join css**/
+
+/**support css**/
